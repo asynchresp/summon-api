@@ -1,0 +1,8 @@
+Installation
+
+- copy .env.example
+- composer install, composer dump-autoload
+- generate app key
+- create database
+- run migration
+- enjoy

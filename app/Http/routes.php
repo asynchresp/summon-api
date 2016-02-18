@@ -32,10 +32,6 @@ Route::group(['middleware' => ['web']], function () {
 
 Route::group(['middleware' => 'api', 'prefix' => 'api', 'namespace' => 'Api'], function () {
 
-    Route::get('test', function () {
-        dd('test');
-    });
-
     Route::post('login', 'AuthController@login');
 
     Route::post('register', 'RegisterController@register');
